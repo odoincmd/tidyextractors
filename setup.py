@@ -27,7 +27,8 @@ import pip
 from os import path
 from codecs import open
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
+#from pip.req import parse_requirements
+from pip._internal.req import parse_requirements
 
 
 here = path.abspath(path.dirname(__file__))
